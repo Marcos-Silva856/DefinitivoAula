@@ -133,3 +133,7 @@ function ex5(){
         alert("Produto não existe")
     }
  }
+
+ function ex1(){
+    
+ }
