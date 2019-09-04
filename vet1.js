@@ -92,7 +92,11 @@ function ex1(){
                     total = aux;
                 }
             }
-            if (total == 0){
+            if (maiormes == 0){
+                alert("Não existe vendas")
+            }else{
+                alert("Maior mês e: "+maiormes+" com um total de venda de: " +total)
+            }
             break;
             case 7: alert("Obrigado por usar o programa"); break;
             default: alert("Opção inválida");
